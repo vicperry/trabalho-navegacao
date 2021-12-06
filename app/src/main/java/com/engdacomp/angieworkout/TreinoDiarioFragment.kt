@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.engdacomp.angieworkout.databinding.FragmentTreinoDiarioBinding
 
-class TreinoDiarioFragment : Fragment(R.layout.fragment_treino_diario) {
+class TreinoDiarioFragment : Fragment() {
     private var _binding: FragmentTreinoDiarioBinding? = null
     private val binding get() = _binding!!
 

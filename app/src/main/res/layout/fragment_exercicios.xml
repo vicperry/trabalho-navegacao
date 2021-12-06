@@ -11,9 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Exercícios"
+        android:text="@string/title_exercicios"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,22 +21,23 @@
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="SpeakableTextPresentCheck">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="Homem fazendo barra fixa."
                 android:src="@drawable/barra"
                 tools:layout_editor_absoluteY="329dp" />
 
@@ -45,6 +45,7 @@
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="Homem fazendo flexão."
                 android:src="@drawable/flexoes1"
                 tools:layout_editor_absoluteY="809dp" />
 
@@ -52,6 +53,7 @@
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="Homem fazendo abdominal."
                 android:src="@drawable/abdominal"
                 tools:layout_editor_absoluteY="1076dp" />
 
@@ -59,6 +61,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="Mulher fazendo agachamento."
                 android:src="@drawable/agachamento" />
         </LinearLayout>
     </ScrollView>
