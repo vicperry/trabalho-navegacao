@@ -3,23 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_treino_diario">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.engdacomp.angieworkout.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_treino_diario"
+        android:name="com.engdacomp.treinoangie.ui.treino_diario.TreinoDiarioFragment"
+        android:label="@string/title_treino_diario" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.engdacomp.angieworkout.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_iniciantes"
+        android:name="com.engdacomp.treinoangie.ui.iniciantes.IniciantesFragment"
+        android:label="@string/title_iniciantes" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.engdacomp.angieworkout.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_exercicios"
+        android:name="com.engdacomp.treinoangie.ui.exercicios.ExerciciosFragment"
+        android:label="@string/title_exercicios" />
 </navigation>
