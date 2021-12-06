@@ -7,16 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_treino_diario"
-        android:name="com.engdacomp.treinoangie.ui.treino_diario.TreinoDiarioFragment"
-        android:label="@string/title_treino_diario" />
+        android:name="com.engdacomp.angieworkout.TreinoDiarioFragment"
+        android:label="@string/title_treino_diario"
+        tools:layout="@layout/fragment_treino_diario" />
 
     <fragment
         android:id="@+id/navigation_iniciantes"
-        android:name="com.engdacomp.treinoangie.ui.iniciantes.IniciantesFragment"
-        android:label="@string/title_iniciantes" />
+        android:name="com.engdacomp.angieworkout.IniciantesFragment"
+        android:label="@string/title_iniciantes"
+        tools:layout="@layout/fragment_iniciantes" />
 
     <fragment
         android:id="@+id/navigation_exercicios"
-        android:name="com.engdacomp.treinoangie.ui.exercicios.ExerciciosFragment"
-        android:label="@string/title_exercicios" />
+        android:name="com.engdacomp.angieworkout.ExerciciosFragment"
+        android:label="@string/title_exercicios"
+        tools:layout="@layout/fragment_exercicios" />
 </navigation>
